@@ -3,3 +3,7 @@ var playlist = {'Murder by Death':'Brother', 'Scissor Sisters':'Take Yo Mamma Ou
 function updatePlaylist(playlist, artistName, songTitle){
   playlist[artistName] = songTitle;
 }
+
+function removeFromPlaylist(playlist, artistName){
+  delete playlist[artistName];
+}
